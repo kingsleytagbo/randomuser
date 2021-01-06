@@ -1,10 +1,10 @@
 # RandomUserCard
 
 ### Node Commands
-npm install -g @angular/cli
-ng new RandomUserCard
-cd RandomUserCard
-npm install bootstrap@latest --save
+__ npm install -g @angular/cli
+__ ng new RandomUserCard
+__ cd RandomUserCard
+__ npm install bootstrap@latest --save
 
-ng generate module RandomUser
-ng generate component random-user/RandomUser
+__ ng generate module RandomUser
+__ ng generate component random-user/RandomUser
