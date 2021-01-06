@@ -1,5 +1,11 @@
 # RandomUserCard
 
+### Node Commands
+npm install -g @angular/cli
+ng new RandomUserCard
+cd RandomUserCard
+npm install bootstrap@latest --save
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
 ## Development server
