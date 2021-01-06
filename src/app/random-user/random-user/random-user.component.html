@@ -1,0 +1,50 @@
+<div *ngFor="let user of users;">
+    <div class="row  pt-5 mt-5 pb-1">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <div class="cards">
+          <div class="bg-white rounded shadow-sm p-5 pb-1">
+
+            <div class="row">
+              <div class="col-md-4">
+                <img [src]="user.picture.large" class="rounded-circle img-thumbnail" style="width:100%;">
+              </div>
+              <div class="col-md-8">
+
+                <dl class="row">
+                  <dt class="col-4">Name</dt>
+                  <dd class="col-8 text-left">{{user.name.first}}</dd>
+                </dl>
+
+                <dl class="row">
+                  <dt class="col-4">Email</dt>
+                  <dd class="col-8 text-left">{{user.email}}</dd>
+                </dl>
+
+                <dl class="row">
+                  <dt class="col-4">Phone</dt>
+                  <dd class="col-8 text-left">{{user.phone}}</dd>
+                </dl>
+
+                <dl class="row">
+                  <dt class="col-4">Location&nbsp;</dt>
+                  <dd class="col-8 text-left">{{user.address}}</dd>
+                </dl>
+
+
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 text-center  mt-3">
+      <button type="button" class="btn btn-primary text-uppercase" (click)="getRandomUser()">Get Random User</button>
+    </div>
+  </div>
